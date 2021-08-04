@@ -1,0 +1,68 @@
+
+/* Navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* hover effect */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04aa6d;
+}
+
+
+/* Chessboard */
+.board {
+    border: 1px solid;
+    height: 480px;
+    width: 480px;
+    display: flex;
+
+    /* flex-direction collum */
+    flex-wrap: wrap;
+    box-shadow: 0 8px 8px rgb(0, 0, 0 / 65%);
+}
+
+.gray {
+    background: grey;
+}
+
+.cell {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
